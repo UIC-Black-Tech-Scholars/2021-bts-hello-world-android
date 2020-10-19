@@ -1,6 +1,7 @@
 package com.example.helloworld
 
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +20,8 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null)
                 .show()
         }
+
+        Log.d("MainActivity", "Hello World")
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
